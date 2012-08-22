@@ -160,7 +160,7 @@ footer {
 	}
 	
 footer nav ul {list-style: none; margin: 0 auto;text-decoration:none;	}
-footer nav li {text-align: center; display: inline; margin: 0;text-decoration:none;	padding-right: 20px; font-size: 14px;}	
+footer nav li {text-align: center; display: inline; margin: 0;text-decoration:none;	padding-right: 20px; font-size: 14px; text-transform: uppercase;}	
 	
 	
 footer a{ text-decoration:none;	}
