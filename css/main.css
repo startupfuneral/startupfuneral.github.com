@@ -171,3 +171,7 @@ footer a:hover, a:active {
 	text-decoration: none;
 	
 }
+
+img.sponsor-logo {
+	border: 15px solid #56370e;
+}
