@@ -160,8 +160,8 @@ footer {
 	}
 	
 footer nav ul {list-style: none; margin: 0 auto;text-decoration:none;	}
-footer nav li {text-align: center; display: inline; margin: 0;text-decoration:none;	padding-right: 20px; }	
-	
+footer nav li {text-align: center; display: inline; margin: 0 0 10px 0 ;text-decoration:none;	padding-right: 20px;}	
+footer nav li a {font-size: 20px;}	
 	
 footer a{ text-decoration:none;	}
 
@@ -170,4 +170,8 @@ footer a:hover, a:active {
 	color: #000;
 	text-decoration: none;
 	
+}
+
+img.sponsor-logo {
+	border: 15px solid #56370e;
 }
