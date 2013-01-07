@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* Author CSS - Custom overwrite */
+
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+	font-family: 'IM Fell DW Pica', serif;
+	
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+p{margin:0px; padding:0px; text-align: left;
+	}
+
+
+h1 {font-size: 4em; text-transform: uppercase;}	/* 22px */ 
+h2 {font-size: 4em; }	/* 22px */
+h3 {font-size: 2.5em;}	/* 20px */
+h4 {font-size: 2.3em}	/* 18px */
+h5 {font-size: 2.0em; text-transform: lowercase; font-style: oblique}	/* 16px */
+h6 {font-size: 1em}		/* 14px */
+p{font-family: 'IM Fell DW Pica', serif;  font-size: 1.0em; font-variant:normal;
+	}
+.masthead h1 {
+  font-size:7em;
+  letter-spacing:-2px;
+  line-height:1;
+  text-transform: uppercase;
+  text-align:center; width:1130px;
+  
+}	
+.masthead p {
+  font-size:1.7em;
+  font-weight: lighter;
+  line-height:1.7;
+  text-transform: none;
+  text-align:center; width:1100px;
+}	
+.masthead p.tagline {
+  font-size:2em;
+  font-weight: lighter;
+  line-height:1.7;
+}
+p.script{font-size:4em; font-family: 'Tangerine', serif;font-weight: lighter;line-height:.9; text-transform: capitalize;
+position:absolute; margin-top:-80px;margin-left: 36%;
+	}
+	
+	p.marketing-byline {text-align:center;}
+	
+	
+.navbar-inverse .navbar-inner {background-image: url(../images/header-bg.png); height: 50px;		
+}
+
+#connect p{color: #FFF;}
+#connect h1{color: #FFF;}
+#connect h2{color: #FFF;}
+#connect h3{color: #FFF;}
+#connect h4{color: #FFF;}
+#connect h5{color: #FFF;}
+
+#connect span4{background-color:#FFF;}
+
+::selection {
+	background: #F39; /* Safari */
+	}
+::-moz-selection {
+	background: #F39; /* Firefox */
+}
+
+.thumbnailSponsors img{ height:150px; 
+	}
+
+
+a {
+  color:#79DBD8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #50CC9B; 
+  text-decoration: underline;
+}
+
+.jumbotron a {
+color:#79DBD8;
+
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+#pinkBack2 { background-color: #F39;
+background: rgba(200, 54, 54, 0.5);
+	}
