@@ -52,6 +52,12 @@ p.script{font-size:3.5em; font-family: 'Tangerine', serif;font-weight: bold;line
 .navbar-inverse .navbar-inner {background-image: url(../images/header-bg.png); height: 50px;		
 }
 
+#jumbotron .container,
+#connect .marketing {
+	background-color: rgba(0,0,0,.7);
+	padding: 25px 20px;
+}
+
 #connect p{color: #FFF;}
 #connect h1{color: #FFF;}
 #connect h2{color: #FFF;}
