@@ -1,439 +1,455 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+ <!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
     <meta charset="utf-8">
-    <title>Startup Funeral</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
     <meta name="author" content="">
 
-    <!-- Le styles -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="assets/css/docs.css" rel="stylesheet">
-    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-    <link href="assets/css/startupfuneral.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica">
-    
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	
+    <title>Startup Funeral</title>
 
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-<script>
- $(document).ready(function() {
-
-
-   $('a[href^="#"]').bind('click.smoothscroll',function (e) {
-    e.preventDefault();
-    var target = this.hash;
-        $target = $(target);
-    $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
-    }, 500, 'swing', function () {
-        window.location.hash = target;
-    });
-});
-   
-   
- });
-</script>
-
-
-  </head>
-
-  <body data-spy="scroll" data-target=".bs-docs-sidebar">
-
-    <!-- Navbar
-    ================================================== -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          
-          <!--<div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="">
-                <a href="#index" id="anchor1" class="anchorLink">Home</a>
-                
-              </li>
-              <li class="active">
-                <a href="#sponsors">Sponsors</a>
-              </li>
-              <li class="">
-                <a href="http://startupfuneral.eventbrite.com">RSVP</a>
-              </li>
-              <li class="">
-                <a href="#speakers">Speak!</a>
-              </li>
-              <li class="">
-                <a href="./blog.html">Blog</a>
-              </li>
-              <li class="">
-                <a href="#press">Press</a>
-              </li>
-              <li class="">
-                <a href="#contact">Contact</a>
-              </li>
-              
-             
-            </ul>
-          </div>-->
-        </div>
-      </div>
-    </div>
-    
-    
-<a name="index" id="index"></a>
-<div id="jumbotron" class="jumbotron masthead">
-  <div class="container">
-  <!--<p><img src="assets/images/logos/startup-funeral.png" alt="Startup Funeral Logo" title="Startup Funeral" /></p>-->
-  <p class="tagline">We gather here today to honor the life and death of our fellow failed startups. . .</p>
-    <h1 class="title">Startup Funeral</h1><p class="script">March 1st, 2013</p><p class="script">7pm (ish) at 412 Broadway, New York, NY</p><p><a href="https://maps.google.com/maps?ie=UTF8&cid=5168761192645440496&q=New+Work+City&iwloc=A&gl=US&hl=en" target="_blank">Location</a></p>
-    
-    <p>Startups often have a large release party. Their births into the world of business are celebrated, and the end of their lives are quietly ignored. Let’s get together and recognize their passing in just as celebratory manner as their births.</p>
-
-    <p><a href="http://startupfuneral.eventbrite.com" class="btn btn-inverse btn-large">Come, Join Us</a></p>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
  
-  </div>
-</div>
-
-<div id="speakers" class="container">
-
-  <div class="marketing">
-
-    <h1>Speakers</h1>
-    <p class="marketing-byline">We have 4 speakers lined up.  Details coming soon.<br/><br/> Want to <a href="mailto:info@startupfuneral.co">speak</a>?</p>
-    <div class="row-fluid">
-	    <div class="span3">
-		    <h2>SoYummy!</h2>
-		    <img class="margeting-ing" src="assets/images/logos/so-yummy-logo.png" alt="SoYummy!" />
-		    <p style="text-align: center"><strong>Mourned by:</strong></p>
-		    <h3>Andrew Young</h3>
-		     <p>Startup junkie with a passion for great coffee, geeky things, freshly baked pastries with a side of electronic dance music. Co-Founder of Mandor.la, a SAAS for life sciences. Principal at Virtuos.ly</p>
-	    </div>
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 	
-	    <div class="span3">
-		    <h2> Bracketz</h2>
-		    <img class="margeting-ing" src="assets/images/logos/bracketz_logo.png" alt="Bracketz" />
-		    <p style="text-align: center"><strong>Mourned by:</strong></p>
-		    <h3>Cynthia Knapic, Co-Founder/CEO</h3>
-		     <p>I co-founded Bracketz, an online marketing platform that specializes in the creation of custom-branded bracket contests and promotions. Our bracket tournaments help brands engage their audiences so that consumers spend more time interacting online with a company's brand, content, and products which in turn leads to increased engagement, increased branding, and increased sales. Bracketz was named the 1st place winner of Carnegie Mellon University's 2011 Keith Block Entrepreneurship Fund Competition.</p>
-	    </div>
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
 	
-	    <div class="span3">
-		    <h2>Sproutlet.io</h2>
-		    <img class="margeting-ing" src="assets/images/logos/sproutlet-io-logo.png" alt="Sproutlet.io" />
-		    <p style="text-align: center"><strong>Mourned by:</strong></p>
-		    <h3>Jay Decker, COO</h3>
-		     <p></p>
-	    </div>
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 	
-	    <div class="span3">
-		    <h2>DealBurner</h2>
-		    <img class="margeting-ing" src="assets/images/logos/dealburner_logo.jpg" alt="So Yummy" />
-		    <p style="text-align: center"><strong>Mourned by:</strong></p>
-		    <h3>Jason Fertel, CEO</h3>
-		     <p></p>
-	    </div>
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css"> 
+	
+	<script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+	<script src="js/PIE_IE9.js"></script>  
+	<script src="js/PIE_IE678.js"></script>  
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="home">
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- FullScreen -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s" style="text-shadow: 1px 1px #333;">We gather here today to honor the life and death of our fellow failed startups...</h3>
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s" style="text-shadow: 4px 4px #333;">STARTUP FUNERAL</h1>
+			<h4 class="h4_home wow fadeIn" data-wow-delay="0.6s" style="text-shadow: 1px 1px #333;">November 14th, 2014</h4>
+			<h4 class="h4_home wow fadeIn" data-wow-delay="0.6s" style="text-shadow: 1px 1px #333;">7pm (ish) at 460 Park Ave. South, 12th Fl. NYC</h4>
+			<ul class="list-inline intro-social-buttons">
+				
+				<li id="download" ><a href="google doc" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="0.7s"><span class="network-name">BURY YOUR STARTUP</span></a>
+				</li>
+				
+				<li><a href="http://eventbirelink.goes.here" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">GET TICKETS</span></a></li>	
+			
+			</ul>
+		</div>    
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
     </div>
-<!--
-    <div class="row-fluid">
-      <div class="span4">
-        <img class="marketing-img" src="assets/images/logos/kozmo.jpeg">
-         <h3>Chris Siragusa, CTO</h3>
-        <p>A former exec from Kozmo.com, a company much celebrated for delivering munchies and movies to customers' homes before it closed down 10 years ago, has built his own delivery service. Check out the (awesome) <a href="https://maxdelivery.com">maxdelivery.com</a>. 
-        </p>
-      </div>
-      <div class="span4">
-        <img class="marketing-img" src="assets/images/logos/addieu.gif">
-        <h3>Brian Papa, <br />Founder & Developer</h3>
-        <p>Find me here <a href="https://twitter.com/bpapa">@bpapa</a>. I make iOS apps at <a href="http://bpmapps.com">bpmapps.com</a>. I mostly tweet about other stuff though. That doesn't make me a bad person.
-        </p>
-      </div>
-      <div class="span4">
-        <img class="marketing-img" src="assets/images/logos/get-a-game-logo.png">
-        <h3>Dan Tashman, CEO</h3>
-        <p>Fine me here <a href="https://twitter.com/dantashman">@dantashman</a>. Co-founder of Skip Trace Design. Toy Maker. Hoops lover. Foodie. Technophile.
-        </p>
-      </div>
-     
-      
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">STARTUP FUNERAL</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					
+					<li class="menuItem"><a href="#whatis">What & where?</a></li>
+					<li class="menuItem"><a href="#useit">Bury my startup</a></li>
+					<li class="menuItem"><a href="#sponsor">Sponsor(s)</a></li>
+					<li class="menuItem"><a href="#credits">Organizers</a></li>
+					<li class="menuItem"><a href="#contact">Contact us</a></li>
+				</ul>
+			</div>  
+		</div>
+	</nav> 
+	
+	<!-- What is -->
+	<div id="whatis" class="content-section-b" style="border-top: 0">
+		<div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>R.I.P.</h2>
+				<p class="lead" style="margin-top:0">Startups often have a large release party. Their births into the world of business are celebrated, and the end of their lives are quietly ignored. Let’s get together and recognize their passing in just as celebratory manner as their births.</p>
+				
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				  <h3>Startup TBD</h3>
+				  <p class="lead">In memoriam we put this startup to rest. May it forever be remembered as a learning experience.</p>
+
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				   <h3>Startup TBD</h3>
+				   <p class="lead">In memoriam we put this startup to rest. May it forever be remembered as a learning experience. </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				   <h3>Startup TBD</h3>
+					<p class="lead">In memoriam we put this startup to rest. May it forever be remembered as a learning experience.  </p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+				
+			<div class="row tworow">
+			
+				<div class="col-sm-4  wow fadeInDown text-center">
+				  <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				  <h3>Startup TBD</h3>
+				  <p class="lead">In memoriam we put this startup to rest. May it forever be remembered as a learning experience.  </p>
+				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				   <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				   <h3>Google</h3>
+				   <p class="lead">In memoriam we put this startup to rest. May it forever be remembered as a learning experience.  </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				   <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				   <h3>Startup TBD</h3>
+				 <p class="lead">In memoriam we put this startup to rest. May it forever be remembered as a learning experience.  </p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+		</div>
+	</div>
+	
+	<!-- Use it -->
+    <div id ="useit" class="content-section-a">
+
+        <div class="container">
+			
+            <div class="row">
+			
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/ipad.png" alt="">
+                </div>
+				
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">IS IT TIME TO BURY YOUR STARTUP?</h3>
+					<div class="sub-title lead3">1. Is your startup dead?<br>
+						2. Do you want to share your learnings?<br>	
+						3. We know it suck, but you've got a sense of humor about it.
+					</div>
+                    <p class="lead">
+						If you answered yes, then <strong>hit that button</strong> and send us your info. 
+					</p>
+					
+					<!!--- SEND TO GOOGLE FORM ---->
+
+					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">APPLY</a> 
+					<!-- <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p> -->
+				</div>   
+            </div>
+        </div>
+        <!-- /.container -->
     </div>
-    -->
- <!--   <p class="marketing-byline">let's send your startup off in glorious fashion. <a href="http://link.com/" target="_blank">speak</a> at the next funeral.</p>
-<br /><br />-->
 
-  </div>
-</div>
+	<!-- What is -->
+	<div id="sponsor" class="content-section-b" style="border-top: 0">
+		<div class="container">
 
-<div id="sponsors" class="container">
-	<div class="marketing">
-    <hr class="soften">
-    <h1>Sponsors</h1>
-    <p class="marketing-byline">help a startup out.<a href="mailto:info@startupfuneral.co">sponsor.</a></p>
-    <div class="row-fluid">
-      
-        <div class="span6">
-          <a class="thumbnailSponsors" href="http://piehole.tv" target="_blank">
-            <img src="assets/images/logos/piehole-logo.jpeg" height="200" alt="piehole">
-          </a>
-           <p> <br/>Piehole.tv makes it super easy, quick and affordable to create professional looking and sounding online videos. Need an awesome script with funky design to make your brand stand out? We'll create your kickass video using high quality professional designers, script writers, top voice over artists and sound engineers.<br/><br/><br/></p>
-        </div>
-        <div class="span6">
-          <a class="thumbnailSponsors" href="http://www.nwc.co/" target="_blank">
-            <img src="assets/images/logos/nwc-icon-200.gif" height="200" alt="NWC Logo">
-          </a>
-          <p><br/> New Work City is the result of the collective effort of a community of people who share a common set of values and needs.
-			We are <a href="http://nytm.org/made/">proudly built and based in New York City</a>, the greatest city in the world.
-			To learn more about the amazing people who make New Work City possible, visit our <a href="http://nwc.co/about/">about</a> and <a href="http://nwc.co/thanks">thanks</a> pages.
-			We are a part of the global <a href="http://coworking.com">coworking movement</a>, and if anyone says it's spelled co-working, send them
-			<a href="http://doescoworkinghaveahyphen.com" target="_blank">here</a> to correct them!<br/><br/><br/></p>
-        </div>
-   
-     
-     </div>
-     <div class="row-fluid">
-      
-        <div class="span6">
-          <a class="thumbnailSponsors" href="https://www.neulantis.com/" target="_blank">
-            <img src="assets/images/logos/neulantis-logo.png" height="83" alt="Neulantis">
-          </a>
-           <p> <br/>Neulantis is a 21st century, guild-like, community of developers, designers and deep domain experts. We are focussed on connecting the best talent and promising teams with good independent work.<br/><br/><br/></p>
-        </div>
-        <div class="span6">
-          <a class="thumbnailSponsors" href="http://touchlab.co" target="_blank">
-            <img src="assets/images/logos/touchlab-logo.png" height="184" alt="Touch Lab">
-          </a>
-          <p><br/>Touch Lab is NYC's premiere Android development company.  We build apps for companies big and small, 
-            from right here at <a href="http://nwc.co">New Work City</a>!<br/><br/><br/></p>
-        </div>
-   
-     
-     </div>
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>SPONSORS</h2>
+				<p class="lead" style="margin-top:0">Without these people the funeral would never happen. They rock. </p>
+				
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/officelinks.jpg" alt="gravestone" width="200px">
+				  <h3>OfficeLinks</h3>
+				  <p class="lead"><a href="http://www.officelinks.com/locations/park-ave/overview"><u>OfficeLinks</u></a> is our Venue sponsor. And we're gonna be at the HUB.</p>
 
-     <div class="row-fluid">
-      
-        <div class="span6">
-          <a class="thumbnailSponsors" href="http://www.themacallan.com/" target="_blank">
-            <img src="assets/images/logos/macallan-logo.jpg" height="83" alt="Macallan">
-          </a>
-           <p> <br/>Macallan – The Single Malt. Our single malt scotch whisky has been distilled in Speyside, Scotland since 1824 and remains the single malt against which all others must be judged.<br/><br/><br/></p>
-        </div>
-        <div class="span6">
-          <a class="thumbnailSponsors" href="http://www.caskers.com" target="_blank">
-            <img src="assets/images/logos/caskers-logo.png" height="184" alt="Caskers">
-          </a>
-          <p><br/>Caskers helps you discover craft spirits that aren’t available at your local liquor store. Our experts work to bring to you the finest artisanal spirits that are sourced from fresh, local produce, and are a celebration of the passion and dedication of the master distillers who make them by hand. Caskers introduces you to unique, small-batch spirits so that you can take pride in what you drink.<br/><br/><br/></p>
-        </div>
-   
-     
-     </div>
-
-     <div class="row-fluid">
-      
-        <div class="span4">
-          &nbsp;
-        </div>
-        <div class="span4">
-          <a href="http://www.popchips.com/" target="_blank">
-            <img src="assets/images/logos/popchips-logo.jpg" height="110" alt="Pop Chips">
-          </a>
-          <p><br/>naturally delicious and healthier. that’s popchips. when they said it couldn’t be done, we raised the snack bar. how do we do it? well, first, let's talk about how we don't do it. we never fry our chips.<br/><br/><br/></p>
-        </div>
-        <div class="span4">
-          &nbsp;
-        </div>
-     
-     </div>
-
-<hr class="soften">
-<a name="supporting" id="supporting"></a>
-    <h1>Supporting</h1>
-    <p class="marketing-byline">all ticket proceeds go to support a good cause.</p>
-    <div class="row-fluid">
-      
-        <div class="span12">
-          <a href="http://hackny.org" target="_blank">
-            <img src="assets/images/logos/hackny-banner-39b413af74d957d408666870cb9f1857.png">
-          </a>
-           <p style="text-align: center;"><br/>hackNY aims to federate the next generation of hackers for the New York innovation community.</p>
-        </div>
-   
-     
-     </div>
-  </div>
-
-</div>
-<div id="connect" class=" ">
-<div class="container" >
-
-  <div class="marketing" >
-
-    <h1>Connect</h1>
-    <p class="marketing-byline">Check out the kind words...</p>
-
-   <div class="row-fluid" id="pinkBack" >
-      <div class="span4">
-        <h5>Press </h5><p class="marketing-byline">Check out the kind words</p>
-        <p style="text-align:center"><a href="http://readwrite.com/2012/10/04/startup-funeral-honoring-the-lessons-of-failure-video">readwrite.com</a> <br /><br />
-        <a href="http://nyconvergence.com/2012/10/event-celebrates-the-death-of-startups.html">nyconvergence.com</a> <br /><br />
-        <a href="http://pandodaily.com/2012/09/28/why-celebrating-a-startups-death-shows-greater-life-for-the-new-york-ecosystem/
-">pandodaily.com</a> <br /><br />
-        <a href="http://betabeat.com/2012/08/startup-funeral-new-work-city/">betabeat.com</a> <br /><br />
-        <a href="http://betabeat.com/2012/09/startup-funeral-kozmo-com-chris-siragusa-brian-papa-dan-tashman/">betabeat.com</a> <br /><br />
-        <a href="http://www.digiday.com/platforms/where-startups-go-to-die/">digiday.com</a><br /><br /> </p>
-        
-        
-   </p>     
-</div>
-      
-      <div class="span4">
-        
-        <h5>Connect </h5> <p class="marketing-byline">Say Hi!</p>
-        <p>
-         Be our friend and spread the word! <br/>Reach out on <a href="http://twitter.com/startupfuneral">Twitter</a>  or <a href="mailto:info@startupfuneral.co">email.</a>
-        </p>
-      </div>
-      <div class="span4">
-        
-        <h5>Sponsor </h5> <p class="marketing-byline">Just do it.</p>
-
-        <p>Weeding out zombies from funeral processions is rigorous business. <br/>Won't you contact us about about becoming a sponsor?<br />
-<br />All sponsorships fund event production and promotion, exclusively. <a href="mailto:jk@inbox.io?&subject=Startup%20Funeral%20Sponsor&subject=Hey!-I-would-love-to-sponsor-you-guys.">info@startupfuneral.co</a> 
-        </p> <br /><br /><br /><br />
-      </div></div>
-</div>
-
-</div>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				   <h3>Sponsor TBD</h3>
+				   <p class="lead">This could be you. Sponsor us. </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				   <h3>Sponsor TBD</h3>
+					<p class="lead">This could be you. Sponsor us. </p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+				
+		<!--	<div class="row tworow">
+			
+				<div class="col-sm-4  wow fadeInDown text-center">
+				  <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				  <h3>Startup TBD</h3>
+				  <p class="lead">In memoriam we put this startup to rest. May it forever be remembered as a learning experience.  </p>
+				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+		<!		</div><!-- /.col-lg-4 -->
+				
+		<!--		<div class="col-sm-4 wow fadeInDown text-center">
+				   <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				   <h3>Google</h3>
+				   <p class="lead">In memoriam we put this startup to rest. May it forever be remembered as a learning experience.  </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+			<!	</div><!-- /.col-lg-4 -->
+				
+			<!--	<div class="col-sm-4 wow fadeInDown text-center">
+				   <img class="rotate" src="img/gravestone.jpg" alt="gravestone" width="200px">
+				   <h3>Startup TBD</h3>
+				 <p class="lead">In memoriam we put this startup to rest. May it forever be remembered as a learning experience.  </p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+			<!	</div><!-- /.col-lg-4 -->
+				
+			<!</div><!-- /.row -->
+		</div>
+	</div>
+	
+	<div  class="content-section-c ">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-6 col-md-offset-3 text-center white">
+				<h2>SPONSOR US</h2>
+				<p class="lead" style="margin-top:0">IT'S A NO BRAINER, WE'RE ALL OVER THE MEDIA.</p>
+			 </div>
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<div class="mockup-content">
+						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
+							<button type="button "><span>SPONSOR</span></button>
+							<div class="morph-content">
+								<div>
+									<div class="content-style-form content-style-form-4 ">
+										<h2 class="morph-clone">DO IT, SPONSOR US</h2>
+										<form>
+											<p><label>WHO DO WE CONTACT?</label><input type="text"/></p>
+											<p><button>SEND</button></p>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>	
+			</div>
+		</div>
+	</div>	
+	
+		<!-- SPONSORS -->
+	<div id="organizers" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Organizers</h2>
+				<p class="lead" style="margin-top:0">Because even in death you need brand name recognition.</p>
+			 </div>
+			 
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4"> 
+							<a href="http://swarmnyc.com"><img src="img/swarm.png" width="100%"></a>
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3><a href="http://swarmnyc.com">SWARM</a></h3>
+							<p><a href="http://swarmnyc.com"><u>SWARM</u></a> equips teams with growth design, and technology solutions. That means design, growth and development support whenever you need it. In house or not, but always in NYC.</p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4"> 
+						  <a href="http://touchlab.co/"><img src="img/touchlab.png" width="100%"></a>
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3><a href="http://touchlab.co/">Touch Lab</a> </h3>
+						<p><a href="http://touchlab.co/"><u>Touch Lab</u></a> is New York City's Premier Android-only Development Shop ... and the great people who are a part of it are very important to all of us at Touch Lab.</p> 
+					  </div>
+					</div>
+			  </div>
+		  </div>
+		  
+		  
+		
+			  </div>
+		  </div>
+		</div>
+	</div>
+	
+	<!-- Banner Download -->
+	<div class="banner" style="height:500px;">
 
 
 
-</div>
+	</div>
+	
+	<!-- Contact -->
+	<div id="contact" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Contact Us</h2>
+				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
+			</div>
+			
+			<form role="form" action="" method="post" >
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="InputName">Your Name</label>
+						<div class="input-group">
+							<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputEmail">Your Email</label>
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="InputMessage">Message</label>
+						<div class="input-group">
+							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
 
-<div class="container">
+					<input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+				</div>
+			</form>
+			
+			<hr class="featurette-divider hidden-lg">
+				<div class="col-md-5 col-md-push-1 address">
+					<address>
+					<h3>Office of Cemetery Oversight</h3>
+					<p class="lead"><a href="https://www.google.com/maps/@40.7451078,-73.9830719,17z"><br>
+					460 Park Avenues South</a><br>
+					The 12th Floor<br>
+					New York, NY 10016</p>
+					</address>
 
-  <div class="marketing">
-
-    <h1>Team</h1>
-    <p class="marketing-byline">dudes. stop by and say hi.</p>
-
-    <div class="row-fluid">
-      <div class="span4">
-        <img class="marketing-img" src="assets/images/logos/temp.jpeg">
-        <h3>Tony Bacigalupo</h3>
-        <p>For the past five years, I have run a coworking space called New Work City in NYC. Completely free of outside influence and open to all, it is the result of the collective participation and support of a wide array of community members who share a common desire to share and collaborate in a new way.</p>
-        <p>I also teach an online course in community building alongside my good friend Alex Hillman. It’s called the Community Builders Masterclass, and I’m really enjoying having the opportunity to work with amazing people all over the world.</p>
-      </div>
-      <div class="span4">
-        <img class="marketing-img" src="assets/images/logos/temp.jpeg">
-        <h3>Kevin Galligan</h3>
-        <p>Kevin has been coding since he was 8.  He's held various corporate positions, and had some small startups with varying success.  A few years ago he started and currently runs <a href="http://touchlab.co">TouchLab</a>, NYC's premiere Android development and consulting shop.</p>
-        <p>Kevin also plays in a band.  Insists on weird musical acts for the funeral.</p>
-      </div>
-      
-      <div class="span4">
-        <img class="marketing-img" src="assets/images/logos/temp.jpeg">
-         <h3>Jason Kende</h3>
-        <p>On a mission to help amazing people connect, discover and share their strengths. In love with ecosystems of innovation, across boundaries and borders.</p>
-        </div></div>
-        <div class="row-fluid">
-        <div class="span4">
-        <img class="marketing-img" src="assets/images/logos/temp.jpeg">
-        <h3>Jason Nadaf</h3>
-        <p>Entrepreneur, developer, and engineer by nature striving to build innovative internet technologies and solutions that either haven't been done before, or that need to be done better.</p>
-        <p>Spend most of my time developing an easy to use software as a service for web publishing and building ecommerce storefronts that sync with multiple channels such as Amazon, eBay, Google Products, and Facebook - SureDone.</p>
-        </div>
-        
-        <div class="span4">
-        <img class="marketing-img" src="assets/images/logos/temp.jpeg">
-        <h3>Leo Newball</h3>
-        <p>I believe in three things: Development, Design, and Data. I believe in the power of Web Development, and any solution can be conquered using a breadth of web-based tools and technology. I believe in the power of great Web Design, believing that both the code and the presentation can be well-organized, presented, and provide amazing experiences. I believe in the power of asking questions, performing Data Research, analyzing the results, and presenting them in ways best disseminated for public use.</p>
-        </div>
-        
-        <div class="span4">
-        <img class="marketing-img" src="assets/images/logos/temp.jpeg">
-         <h3>Valerie </h3>
-        <p>Spent college summers deploying toy monkeys in Ohio. Spent 2001-2008 building puppets in Phoenix, AZ. Spent 2002-2009 lecturing about Easter candy for the underprivileged. Had moderate success selling sock monkeys in Fort Lauderdale, FL. Had some great experience marketing cabbage in Edison, NJ. What gets me going now is lecturing about foreign tangerines in Bethesda, MD.</p>
-        </div></div>
-          
-      </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Footer
-    ================================================== -->
-    <footer class="footer">
+					<h3>Social</h3>
+					<li class="social"> 
+					<a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
+					<a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
+					<a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
+					<!--<a href="#"><i class="fa fa-flickr fa-size"> </i> </a>-->
+					</li>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+    <footer>
       <div class="container">
-        
-        <ul class="footer-links">
-          <li> <a href="https://twitter.com/startupfuneral" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @startupfuneral</a>
-              </li>
-        </ul>
+        <div class="row">
+          <div class="col-md-7">
+            
+	   
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-md-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Office of Cemetery Oversight</h3>
+              <ul>
+                <li>460 Park Avenue South </li>
+                <li>12th Floor</li>
+                <li>New York, NY 10016</li>
+                <li>Full Responsive</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+             Designed by <a href="http://swarmny.com" target="_blank">SWARM</a> using Flatify 
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
 
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script> 
+</body>
 
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/bootstrap-affix.js"></script>
-
-    <script src="assets/js/holder/holder.js"></script>
-    <script src="assets/js/google-code-prettify/prettify.js"></script>
-
-    <script src="assets/js/application.js"></script>
-    
-    <script src="assets/js/jquery.backstretch.min.js"></script>
-    <script src="assets/js/bgfiles.js"></script>
-    
-    <script src="assets/js/jquery.header.js"></script>
-    
-   
-    
-
-
-
-  </body>
 </html>
